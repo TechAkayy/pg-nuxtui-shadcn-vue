@@ -20,3 +20,5 @@ pinegrow.json
 auto-imports.d.ts
 components.d.ts
 composables.d.ts
+
+!packages/my-shadcn-vue-layer/.nuxt
