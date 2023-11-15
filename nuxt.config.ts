@@ -18,14 +18,6 @@ export default defineNuxtConfig({
     './packages/my-nuxtui-layer', // NavBar and Footer components
     './packages/my-shadcn-vue-layer', // Shadcn-Vue blocks
   ],
-  hooks: {
-    'components:dirs': (dirs) => {
-      dirs.unshift({
-        path: '~/components/OgImage',
-        island: true,
-      })
-    },
-  },
   // ssr: false,
   devtools: { enabled: false }, // Disable when using Vue devtools
 
