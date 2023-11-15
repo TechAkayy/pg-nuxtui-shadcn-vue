@@ -1,21 +1,21 @@
 <script setup lang="ts">
-import {
-  MenubarPortal,
-  MenubarSubContent,
-  type MenubarSubContentEmits,
-  type MenubarSubContentProps,
-} from 'radix-vue'
-import { cn } from '@/lib/utils'
+  import {
+    MenubarPortal,
+    MenubarSubContent,
+    type MenubarSubContentEmits,
+    type MenubarSubContentProps,
+  } from 'radix-vue'
+  import { cn } from '@/lib/utils'
 
-const props = withDefaults(
-  defineProps<MenubarSubContentProps & { class?: string }>(),
-  {
-    sideOffset: 2,
-    alignOffset: 0,
-  },
-)
+  const props = withDefaults(
+    defineProps<MenubarSubContentProps & { class?: string }>(),
+    {
+      sideOffset: 2,
+      alignOffset: 0,
+    },
+  )
 
-const emits = defineEmits<MenubarSubContentEmits>()
+  const emits = defineEmits<MenubarSubContentEmits>()
 </script>
 
 <template>

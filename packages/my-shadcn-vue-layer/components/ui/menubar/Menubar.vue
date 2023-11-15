@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import {
-  MenubarRoot,
-  type MenubarRootEmits,
-  type MenubarRootProps,
-} from 'radix-vue'
-import { cn } from '@/lib/utils'
+  import {
+    MenubarRoot,
+    type MenubarRootEmits,
+    type MenubarRootProps,
+  } from 'radix-vue'
+  import { cn } from '@/lib/utils'
 
-const props = defineProps<MenubarRootProps & { class?: string }>()
+  const props = defineProps<MenubarRootProps & { class?: string }>()
 
-const emits = defineEmits<MenubarRootEmits>()
+  const emits = defineEmits<MenubarRootEmits>()
 </script>
 
 <template>

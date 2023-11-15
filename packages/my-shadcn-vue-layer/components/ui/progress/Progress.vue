@@ -1,18 +1,18 @@
 <script setup lang="ts">
-import {
-  ProgressIndicator,
-  ProgressRoot,
-  type ProgressRootProps,
-} from 'radix-vue'
-import { cn } from '@/lib/utils'
+  import {
+    ProgressIndicator,
+    ProgressRoot,
+    type ProgressRootProps,
+  } from 'radix-vue'
+  import { cn } from '@/lib/utils'
 
-const props = withDefaults(
-  defineProps<ProgressRootProps & { class?: string }>(),
-  {
-    class: '',
-    modelValue: 0,
-  },
-)
+  const props = withDefaults(
+    defineProps<ProgressRootProps & { class?: string }>(),
+    {
+      class: '',
+      modelValue: 0,
+    },
+  )
 </script>
 
 <template>

@@ -1,12 +1,14 @@
 <script setup lang="ts">
-import {
-  ContextMenuSubTrigger,
-  type ContextMenuSubTriggerProps,
-} from 'radix-vue'
-import { ChevronRight } from 'lucide-vue-next'
-import { cn } from '@/lib/utils'
+  import {
+    ContextMenuSubTrigger,
+    type ContextMenuSubTriggerProps,
+  } from 'radix-vue'
+  import { ChevronRight } from 'lucide-vue-next'
+  import { cn } from '@/lib/utils'
 
-const props = defineProps<ContextMenuSubTriggerProps & { class?: string; inset?: boolean }>()
+  const props = defineProps<
+    ContextMenuSubTriggerProps & { class?: string; inset?: boolean }
+  >()
 </script>
 
 <template>

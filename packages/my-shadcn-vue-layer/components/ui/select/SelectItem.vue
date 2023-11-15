@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import {
-  SelectItem,
-  SelectItemIndicator,
-  type SelectItemProps,
-  SelectItemText,
-} from 'radix-vue'
-import { Check } from 'lucide-vue-next'
-import { cn } from '@/lib/utils'
+  import {
+    SelectItem,
+    SelectItemIndicator,
+    type SelectItemProps,
+    SelectItemText,
+  } from 'radix-vue'
+  import { Check } from 'lucide-vue-next'
+  import { cn } from '@/lib/utils'
 
-const props = defineProps<SelectItemProps & { class?: string }>()
+  const props = defineProps<SelectItemProps & { class?: string }>()
 </script>
 
 <template>

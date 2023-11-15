@@ -1,19 +1,19 @@
 <script setup lang="ts">
-import {
-  MenubarContent,
-  type MenubarContentProps,
-  MenubarPortal,
-} from 'radix-vue'
-import { cn } from '@/lib/utils'
+  import {
+    MenubarContent,
+    type MenubarContentProps,
+    MenubarPortal,
+  } from 'radix-vue'
+  import { cn } from '@/lib/utils'
 
-const props = withDefaults(
-  defineProps<MenubarContentProps & { class?: string }>(),
-  {
-    align: 'start',
-    alignOffset: -4,
-    sideOffset: 8,
-  },
-)
+  const props = withDefaults(
+    defineProps<MenubarContentProps & { class?: string }>(),
+    {
+      align: 'start',
+      alignOffset: -4,
+      sideOffset: 8,
+    },
+  )
 </script>
 
 <template>

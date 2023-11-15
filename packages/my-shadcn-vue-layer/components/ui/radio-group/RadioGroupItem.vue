@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import {
-  RadioGroupIndicator,
-  RadioGroupItem,
-  type RadioGroupItemProps,
-} from 'radix-vue'
-import { Circle } from 'lucide-vue-next'
-import { cn } from '@/lib/utils'
+  import {
+    RadioGroupIndicator,
+    RadioGroupItem,
+    type RadioGroupItemProps,
+  } from 'radix-vue'
+  import { Circle } from 'lucide-vue-next'
+  import { cn } from '@/lib/utils'
 
-const props = defineProps<RadioGroupItemProps & { class?: string }>()
+  const props = defineProps<RadioGroupItemProps & { class?: string }>()
 </script>
 
 <template>

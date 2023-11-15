@@ -1,14 +1,16 @@
 <script setup lang="ts">
-import {
-  ContextMenuItem,
-  type ContextMenuItemEmits,
-  type ContextMenuItemProps,
-  useEmitAsProps,
-} from 'radix-vue'
-import { cn } from '@/lib/utils'
+  import {
+    ContextMenuItem,
+    type ContextMenuItemEmits,
+    type ContextMenuItemProps,
+    useEmitAsProps,
+  } from 'radix-vue'
+  import { cn } from '@/lib/utils'
 
-const props = defineProps<ContextMenuItemProps & { class?: string; inset?: boolean }>()
-const emits = defineEmits<ContextMenuItemEmits>()
+  const props = defineProps<
+    ContextMenuItemProps & { class?: string; inset?: boolean }
+  >()
+  const emits = defineEmits<ContextMenuItemEmits>()
 </script>
 
 <template>

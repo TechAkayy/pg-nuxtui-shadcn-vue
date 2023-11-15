@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import {
-  ContextMenuCheckboxItem,
-  type ContextMenuCheckboxItemEmits,
-  type ContextMenuCheckboxItemProps,
-  ContextMenuItemIndicator,
-  useEmitAsProps,
-} from 'radix-vue'
-import { Check } from 'lucide-vue-next'
-import { cn } from '@/lib/utils'
+  import {
+    ContextMenuCheckboxItem,
+    type ContextMenuCheckboxItemEmits,
+    type ContextMenuCheckboxItemProps,
+    ContextMenuItemIndicator,
+    useEmitAsProps,
+  } from 'radix-vue'
+  import { Check } from 'lucide-vue-next'
+  import { cn } from '@/lib/utils'
 
-const props = defineProps<ContextMenuCheckboxItemProps & { class?: string }>()
-const emits = defineEmits<ContextMenuCheckboxItemEmits>()
+  const props = defineProps<ContextMenuCheckboxItemProps & { class?: string }>()
+  const emits = defineEmits<ContextMenuCheckboxItemEmits>()
 </script>
 
 <template>

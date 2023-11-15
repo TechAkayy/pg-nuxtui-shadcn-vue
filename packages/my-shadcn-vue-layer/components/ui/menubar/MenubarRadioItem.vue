@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import {
-  MenubarItemIndicator,
-  MenubarRadioItem,
-  type MenubarRadioItemEmits,
-  type MenubarRadioItemProps,
-} from 'radix-vue'
-import { Circle } from 'lucide-vue-next'
-import { cn } from '@/lib/utils'
+  import {
+    MenubarItemIndicator,
+    MenubarRadioItem,
+    type MenubarRadioItemEmits,
+    type MenubarRadioItemProps,
+  } from 'radix-vue'
+  import { Circle } from 'lucide-vue-next'
+  import { cn } from '@/lib/utils'
 
-const props = defineProps<MenubarRadioItemProps & { class?: string }>()
+  const props = defineProps<MenubarRadioItemProps & { class?: string }>()
 
-const emits = defineEmits<MenubarRadioItemEmits>()
+  const emits = defineEmits<MenubarRadioItemEmits>()
 </script>
 
 <template>

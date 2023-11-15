@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import TableRow from './TableRow.vue'
-import TableCell from './TableCell.vue'
-import { cn } from '@/lib/utils'
+  import TableRow from './TableRow.vue'
+  import TableCell from './TableCell.vue'
+  import { cn } from '@/lib/utils'
 
-interface Props {
-  class?: string
-  colspan?: number
-}
+  interface Props {
+    class?: string
+    colspan?: number
+  }
 
-const props = withDefaults(defineProps<Props>(), {
-  class: '',
-  colspan: 1,
-})
+  const props = withDefaults(defineProps<Props>(), {
+    class: '',
+    colspan: 1,
+  })
 </script>
 
 <template>
