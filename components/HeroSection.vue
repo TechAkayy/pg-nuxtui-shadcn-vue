@@ -47,18 +47,6 @@
 </script>
 <template>
   <section>
-    <Accordion type="single" class="container">
-      <AccordionItem
-        v-for="(accordionItem, index) in accordionItems"
-        :key="index"
-        :value="accordionItem.value"
-      >
-        <AccordionTrigger class="animate-pulse">{{
-          accordionItem.title
-        }}</AccordionTrigger>
-        <AccordionContent>{{ accordionItem.content }}</AccordionContent>
-      </AccordionItem>
-    </Accordion>
     <div
       class="bg-center bg-cover bg-no-repeat blur-none z-0"
       :style="bgStyles"
